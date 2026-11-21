@@ -1,9 +1,9 @@
-# Before the Ships (draft)
+# Before the Ships
 
 Class investigation for Part One of *Reopen the Record*: Deep Time, Cape Inscription 1616, Batavia 1629, and the bridge to 1768/1770.
 
-Planned URL (not published): https://robmac10.github.io/before-the-ships/
+Live at https://robmac10.github.io/before-the-ships/
 
-Static app with robots.txt and a noindex meta tag. Do not create a repo or push until asked to publish.
+Static app with robots.txt and a noindex meta tag. 
 
-Draft, pending consultation, following AIATSIS guidance.
+, following AIATSIS guidance.

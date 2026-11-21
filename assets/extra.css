@@ -49,3 +49,12 @@ img{max-width:100%;height:auto}
 .wback p{margin:0 0 .5em}
 .wback textarea{width:100%}
 @media print{.wflip{display:none}.wback{display:block!important}}
+
+/* Deep Time intro with app QR */
+.dt-intro{display:grid;grid-template-columns:1fr;gap:4px 22px;align-items:start}
+@media (min-width:720px){.dt-intro{grid-template-columns:1fr 210px}}
+.dt-qr{margin:.4em auto 1em;max-width:230px;text-align:center}
+.dt-qr .zoom{margin:0}
+.dt-qr .zoom img{width:100%;max-height:none;border:2px solid #c9a96a;border-radius:10px;padding:4px}
+.dt-qr figcaption{font:600 .85rem/1.35 system-ui,sans-serif;color:#5e2412;margin-top:.4em}
+.dt-qr figcaption a{color:#235e69}
