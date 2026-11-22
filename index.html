@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="assets/claim.css">
   <link rel="stylesheet" href="assets/image-fit.css">
+  <link rel="stylesheet" href="assets/deep-time-tab.css">
 </head>
 <body data-store="before-the-ships-v1" data-aliases='{"case":"read","finding":"decide","my-finding":"decide","supersleuths":"sleuth","super-sleuths":"sleuth","teacher":"sleuth","map":"maps","timeline":"maps"}'>
 <a class="skip" href="#main">Skip to the investigation</a>
@@ -36,6 +37,7 @@
     <button role="tab" id="tab-maps" aria-controls="maps" aria-selected="false" data-tab="maps">6. Map &amp; timeline <small>(optional)</small></button>
     <button role="tab" id="tab-words" aria-controls="words" aria-selected="false" data-tab="words">7. Words on the record</button>
     <button role="tab" id="tab-explore" aria-controls="explore" aria-selected="false" data-tab="explore">8. Explore more</button>
+      <button role="tab" id="tab-deeptime" aria-controls="deeptime" aria-selected="false" data-tab="deeptime">Deep Time</button>
   </nav>
 </header>
 <main id="main" class="wrap">
@@ -364,7 +366,19 @@
 <details class="sleuth-sec teacher" id="teacher-explore"><summary>Teacher note: explore more</summary><div class="sleuth-body"><ul><li>All links were checked live on 20 November 2026. Preview each page before class.</li><li>Secrets of Lake Mungo is about ancient human remains (Mungo Lady and Mungo Man). Check it suits your class and community before you show it. The museum’s Mungo Lady page describes the remains in more detail and is not linked here.</li><li>The Songlines virtual tour is shared by the National Museum of Australia with the support of the Martu, Ngaanyatjarra and Aṉangu Pitjantjatjara Yankunytjatjara custodians. The tour may play sound; check the volume first.</li><li>The museum’s Batavia page describes the killings on the islands, so it is not linked here. The two Batavia cases above leave those deaths out.</li><li>The museum’s learning module Deep time history of Australia (https://digital-classroom.nma.gov.au/learning-modules/deep-time-history-australia) is pitched at older students; use it for teacher background.</li><li>No live virtual tour of an Australian rock art site other than Walinynga was found, so Ubirr is a photo page, not a tour.</li></ul></div></details>
 </section>
 <!-- explore:end -->
-</main>
+    <section id="deeptime" role="tabpanel" aria-labelledby="tab-deeptime" class="panel">
+      <div class="dt-open">
+        <h2>Deep Time</h2>
+        <p>Scientists say people have lived in Australia for at least 65,000 years.</p>
+        <a class="dt-open-btn" href="https://robmac10.github.io/65000-years/">Open the Deep Time investigation</a>
+        <figure class="dt-open-qr">
+          <img src="assets/deep-time-qr.png" width="200" height="240" alt="QR code with the Deep Time emblem. It opens the Deep Time investigation.">
+          <figcaption>Scan to open the Deep Time investigation, or use the button.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
 <footer class="wrap">
   <p>Reopen the Record: Australian Histories · Before the Ships</p>
   <p class="note">The student pages use published, cited records. Teachers should follow AIATSIS guidance and local community protocols. Real recorded words and public-domain images only. No likeness has been invented. Search engines are asked not to index this app.</p>
